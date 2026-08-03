@@ -8,10 +8,9 @@ pipeline {
             steps {
                 echo 'Downloading latest application code from GitHub...'
                 git branch: 'main',
-                url: 'https://github.com/sayleenarkhede/Jenkins-CI-Demo.git'
+                url: 'https://github.com/Prakash4664/TE_SE_EXP3.git'
             }
-        }
-
+            
         stage('Verify Application Files') {
             steps {
                 echo 'Checking project files...'
